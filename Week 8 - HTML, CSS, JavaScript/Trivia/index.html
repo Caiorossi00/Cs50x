@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Trivia!</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Part 1: Multiple Choice</h2>
+        <hr />
+
+        <h3>What is the capital of Brazil?</h3>
+        <button id="correct">Brasilia</button>
+        <button id="incorrect1">São Paulo</button>
+        <button id="incorrect2">Rio de Janeiro</button>
+      </div>
+
+      <div class="section">
+        <h2>Part 2: Free Response</h2>
+        <hr />
+        <h3>What is the capital of Rio Grande do Sul?</h3>
+        <input type="text" id="freeResponse" placeholder="Your answer" />
+        <button onclick="checkAnswer()">Confirm</button>
+        <p id="feedback"></p>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("correct").addEventListener("click", function () {
+        handleButtonClick("correct");
+      });
+
+      document
+        .getElementById("incorrect1")
+        .addEventListener("click", function () {
+          handleButtonClick("incorrect1");
+        });
+
+      document
+        .getElementById("incorrect2")
+        .addEventListener("click", function () {
+          handleButtonClick("incorrect2");
+        });
+
+      function handleButtonClick(userChoice) {
+        var button = document.getElementById(userChoice);
+        var questionText = document.querySelector(".section h3");
+        var feedbackText = document.createElement("p");
+        feedbackText.classList.add("feedback-text");
+
+        var previousFeedback = document.querySelector(".feedback-text");
+        if (previousFeedback) {
+          previousFeedback.remove();
+        }
+
+        if (userChoice === "correct") {
+          button.style.backgroundColor = "green";
+          feedbackText.textContent = "Correct!";
+          feedbackText.classList.add("correct-answer");
+        } else {
+          button.style.backgroundColor = "red";
+          feedbackText.textContent = "Incorrect!";
+          feedbackText.classList.add("incorrect-answer");
+        }
+
+        document.querySelector(".section").appendChild(feedbackText);
+      }
+
+      function checkAnswer() {
+        var userAnswer = document
+          .getElementById("freeResponse")
+          .value.trim()
+          .toLowerCase();
+        var feedbackText = document.getElementById("feedback");
+
+        if (userAnswer === "porto alegre") {
+          document.getElementById("freeResponse").style.backgroundColor =
+            "green";
+          feedbackText.textContent = "Correct!";
+          feedbackText.classList.add("correct-answer");
+        } else {
+          document.getElementById("freeResponse").style.backgroundColor = "red";
+          feedbackText.textContent = "Incorrect";
+          feedbackText.classList.add("incorrect-answer");
+        }
+      }
+    </script>
+  </body>
+</html>
