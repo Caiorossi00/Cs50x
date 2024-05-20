@@ -1,0 +1,16 @@
+sort1 uses: Bubble
+
+How do you know?:
+It is good to deal with small datas but it's slow dealing with a big number of data and random lists
+
+sort2 uses: Merge
+
+How do you know?:
+It's the most consistent between the tests
+
+sort3 uses: Selection
+
+How do you know?:
+Because of it takes an intermediate amount of time, and it's better with already sorted data
+
+
