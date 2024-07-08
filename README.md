@@ -52,7 +52,7 @@
 <ul>
   <li><a href="https://cs50.harvard.edu/x/2024/psets/7/songs/">Songs</a></li>
   <li><a href="https://cs50.harvard.edu/x/2024/psets/7/movies/">Movies</a></li>
-  <li><a href="https://cs50.harvard.edu/x/2024/psets/7/fiftyville/">TODO: Fiftyville</a></li>
+  <li><a href="https://cs50.harvard.edu/x/2024/psets/7/fiftyville/">Fiftyville</a></li>
 </ul>
 
 <h2>Week 8 - HTML, CSS, JavaScript</h2>
