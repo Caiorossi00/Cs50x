@@ -63,7 +63,7 @@
 
 <h2>Week 9 - Flask</h2>
 <ul>
-  <li><a href="https://cs50.harvard.edu/x/2024/psets/9/birthdays/">TODO: Birthdays</a></li>
+  <li><a href="https://cs50.harvard.edu/x/2024/psets/9/birthdays/">Birthdays</a></li>
   <li><a href="https://cs50.harvard.edu/x/2024/psets/9/finance/">TODO: Finance</a></li>
 </ul>
 
