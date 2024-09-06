@@ -1,6 +1,6 @@
-<h1>Wise Wealth</h1>
-
-<p>O Wise Wealth é um aplicativo destinado a simplificar a organização financeira, permitindo que os usuários gerenciem e visualizem seus gastos mensais de maneira eficiente. Com um foco central na experiência do usuário, o aplicativo oferece uma abordagem intuitiva para categorizar despesas, exibindo um saldo total em tempo real para uma compreensão clara da situação financeira.</p>
+# Wise Wealth
+#### Video Demo:  <URL HERE>
+#### Description: O Wise Wealth é um aplicativo destinado a simplificar a organização financeira, permitindo que os usuários gerenciem e visualizem seus gastos mensais de maneira eficiente. Com um foco central na experiência do usuário, o aplicativo oferece uma abordagem intuitiva para categorizar despesas, exibindo um saldo total em tempo real para uma compreensão clara da situação financeira.
 
 <ol>
     <li>
@@ -11,7 +11,6 @@
             <li>Optar por uma aplicação web proporcionou um acesso fácil e rápido, enquanto o uso do <code>localStorage</code> garante que as informações do usuário sejam armazenadas localmente no navegador, mantendo o saldo sempre disponível.</li>
         </ul>
     </li>
-
 <li>
         <strong>Funcionamento</strong>
         <ul>
