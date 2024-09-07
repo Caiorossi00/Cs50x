@@ -72,4 +72,5 @@
   <li><a href="https://cs50.harvard.edu/x/2024/project/">TODO: </a></li>
 </ul>
 
-<img src="https://camo.githubusercontent.com/fda576097c788f28895e724dd014ec3c9f205d97ac83862fa4361034fdc3bc5c/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a313430302f666f726d61743a776562702f312a4959436966544343523261682d37397539345a3377672e706e67" alt="Harvard Logo"/>
+<img src="https://certificates.cs50.io/23b4e089-3e49-4245-9798-db8a90795fd9.png?size=letter" alt="My Certificate"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/1280px-Harvard_University_logo.svg.png" alt="Harvard Logo"/>
