@@ -1,11 +1,9 @@
 # Wise Wealth
 
-#### Video Demo: <(https://www.youtube.com/watch?v=baidVOLSKuw)>
+#### Video Demo: (https://www.youtube.com/watch?v=baidVOLSKuw)
 
 #### Description: Wise Wealth is an application designed to simplify financial organization, enabling users to efficiently manage and view their monthly expenses. With a focus on user experience, the app offers an intuitive approach to categorizing expenses, displaying a real-time total balance for a clear understanding of financial standing.
 
-<h1>Wise Wealth</h1>
-<hr>
 <ol>
   <li>
     <strong>Motivations</strong>
@@ -257,9 +255,8 @@
     <li>The user interface is updated dynamically, with functions that change the balance and transaction list in response to user actions.</li>
   </ul>
 </li>
-
+</ol>
 <h3>Conclusion</h3>
 <p>
 Wise Wealth was developed with the goal of providing a simple and effective tool for personal financial management. Through its intuitive interface and practical features, such as transaction categorization and dynamic balance updates, the app makes it easier to organize monthly finances.
 Wise Wealth not only fulfills its role in helping with financial control, but also demonstrates the ability to build a responsive and user-friendly web application, designed to solve everyday problems.</p>
-</ol>
