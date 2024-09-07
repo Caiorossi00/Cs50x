@@ -69,7 +69,7 @@
 
 <h2>Final Project</h2>
 <ul>
-  <li><a href="https://cs50.harvard.edu/x/2024/project/">TODO: </a></li>
+  <li><a href="https://cs50.harvard.edu/x/2024/project/">Wise Wealth</a></li>
 </ul>
 
 <img src="https://certificates.cs50.io/23b4e089-3e49-4245-9798-db8a90795fd9.png?size=letter" alt="My Certificate"/>
