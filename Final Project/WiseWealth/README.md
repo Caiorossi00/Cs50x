@@ -1,265 +1,265 @@
 # Wise Wealth
 
-#### Video Demo: <URL HERE>
+#### Video Demo: <(https://www.youtube.com/watch?v=baidVOLSKuw)>
 
-#### Description: O Wise Wealth é um aplicativo destinado a simplificar a organização financeira, permitindo que os usuários gerenciem e visualizem seus gastos mensais de maneira eficiente. Com um foco central na experiência do usuário, o aplicativo oferece uma abordagem intuitiva para categorizar despesas, exibindo um saldo total em tempo real para uma compreensão clara da situação financeira.
+#### Description: Wise Wealth is an application designed to simplify financial organization, enabling users to efficiently manage and view their monthly expenses. With a focus on user experience, the app offers an intuitive approach to categorizing expenses, displaying a real-time total balance for a clear understanding of financial standing.
 
+<h1>Wise Wealth</h1>
+<hr>
 <ol>
-    <li>
-        <strong>Motivações</strong>
-        <ul>
-            <li>Observando a necessidade de um controle mais eficaz das finanças, desenvolvi o Wise Wealth, um aplicativo projetado para ajudar os usuários a acompanhar e categorizar seus gastos mensais.</li>
-            <li>Este aplicativo foi inicialmente criado para uso pessoal, com o objetivo de auxiliar na gestão das entradas e saídas de dinheiro.</li>
-            <li>Optar por uma aplicação web proporcionou um acesso fácil e rápido, enquanto o uso do <code>localStorage</code> garante que as informações do usuário sejam armazenadas localmente no navegador, mantendo o saldo sempre disponível.</li>
-        </ul>
-    </li>
-<li>
-        <strong>Funcionamento</strong>
-        <ul>
-            <li><strong>Campo de Inputs e Campo de Display</strong>
-                <ul>
-                    <li>No campo de inputs, o usuário insere a descrição, o valor, a categoria e o tipo da transação (entrada ou saída).</li>
-                    <li>Ao clicar no botão "Inserir Dados", essas informações são renderizadas na área de display à direita da tela, onde as transações são organizadas por mês.</li>
-                    <li>Os usuários podem navegar entre diferentes meses para visualizar transações passadas ou futuras e têm a opção de remover transações conforme necessário.</li>
-                </ul>
-            </li>
+  <li>
+    <strong>Motivations</strong>
+    <ul>
+      <li>Observing the need for more effective financial control, I have developed Wise Wealth, an app designed to help users track and categorize their monthly expenses.</li>
+      <li>This app was initially created for personal use, aiming to assist in managing my money inflows and outflows.</li>
+      <li>Opting for a web application provided quick and easy access, while the use of <code>localStorage</code> ensures that user information is stored locally in the browser, keeping the balance always available.</li>
+    </ul>
+  </li>
 
-<li><strong>Navbar</strong>
-                <ul>
-                    <li>Na barra de navegação (navbar), o usuário tem acesso a algumas funcionalidades:</li>
-                    <li><strong>Como Usar:</strong> Um link que abre um modal com instruções detalhadas sobre o uso do aplicativo.</li>
-                    <li><strong>Suporte:</strong> Um link que redireciona o usuário para o WhatsApp, permitindo enviar uma mensagem diretamente para relatar problemas com o aplicativo.</li>
-                    <li><strong>Apoie:</strong> Um botão que direciona para meu Instagram profissional, onde os usuários podem apoiar o projeto.</li>
-                </ul>
-            </li>
-
-<li><strong>Footer</strong>
-                <ul>
-                    <li>No rodapé (footer), o usuário pode consultar informações sobre a política de privacidade e os termos de uso, ambos acessíveis por meio de modais.</li>
-                    <li>Além disso, há uma âncora que leva ao meu Instagram, onde estão os créditos ao desenvolvedor.</li>
-                </ul>
-            </li>
+  <li>
+    <strong>Functionality</strong>
+    <ul>
+      <li>
+        <strong>Input Fields and Display Area</strong>
+        <ul>
+          <li>In the input fields, the user enters the transaction description, amount, category, and type (income or expense).</li>
+          <li>Upon clicking the "Insert Data" button, this information is rendered in the display area on the right side of the screen, where transactions are organized by month.</li>
+          <li>Users can navigate between different months to view past or future transactions and have the option to remove transactions as needed.</li>
         </ul>
-    </li>
+      </li>
 
 <li>
-        <strong>Conceitos</strong>
+        <strong>Navbar</strong>
         <ul>
-            <li><strong>Armazenamento Local:</strong> O código utiliza o <code>localStorage</code> do navegador para persistir os dados das transações, garantindo que as informações sejam mantidas mesmo após o fechamento da página.</li>
-            <li><strong>Manipulação de Objetos:</strong> A criação de objetos <code>Transacao</code> permite representar cada transação com suas propriedades específicas (id, descrição, valor, tipo, categoria). Isso facilita a organização e o gerenciamento dos dados.</li>
-            <li><strong>Arrays e Objetos:</strong> Os dados são estruturados em arrays e objetos para armazenar as transações e organizar as informações por mês.</li>
-            <li><strong>DOM:</strong> A interface do usuário é manipulada através do DOM (Document Object Model), permitindo a criação e atualização de elementos HTML dinamicamente.</li>
-            <li><strong>Eventos:</strong> A interação do usuário com a aplicação é gerenciada através de eventos, como cliques em botões, que desencadeiam funções específicas.</li>
-            <li><strong>Funções:</strong> Funções são utilizadas para encapsular funcionalidades específicas, como adicionar transações, calcular o saldo, exibir transações na tela, etc.</li>
-            <li><strong>Lógica Condicional:</strong> Estruturas condicionais (<code>if/else</code>) são utilizadas para tomar decisões, como determinar se uma transação é uma entrada ou saída, ou se o saldo é positivo ou negativo.</li>
-            <li><strong>Formatação:</strong> O código utiliza métodos de formatação de números e datas para apresentar os valores monetários e datas de forma clara e consistente.</li>
+          <li>In the navigation bar (navbar), the user has access to several functionalities:</li>
+          <li><strong>How to Use:</strong> A link that opens a modal with detailed instructions on how to use the app.</li>
+          <li><strong>Support:</strong> A link that redirects the user to my personal WhatsApp, allowing them to send a message directly to report issues with the app.</li>
+          <li><strong>Endorse Us:</strong> A button that redirects to my professional Instagram, where users can check other projects that I have developed.</li>
         </ul>
-    </li>
+      </li>
 
+<li>
+        <strong>Footer</strong>
+        <ul>
+          <li>In the footer, the user can access information about the privacy policy and terms of use, both available via modals that will pop up on the screen upon clicking.</li>
+          <li>Additionally, there's a link to my Instagram, where credits to the developer are available.</li>
+        </ul>
+      </li>
+    </ul>
+
+  </li>
+
+  <li>
+    <strong>Concepts</strong>
+    <ul>
+      <li><strong>Local Storage:</strong> The code uses the browser's <code>localStorage</code> to persist transaction data, ensuring that information is retained even after the page is closed.</li>
+      <li><strong>Object Manipulation:</strong> The creation of <code>Transaction</code> objects represents each transaction with its specific properties (id, description, amount, type, category). This helps with organizing and managing data.</li>
+      <li><strong>Arrays and Objects:</strong> Data is structured in arrays and objects to store transactions and organize information by month.</li>
+      <li><strong>DOM:</strong> The user interface is manipulated through the DOM (Document Object Model), allowing the creation and dynamic updating of HTML elements.</li>
+      <li><strong>Events:</strong> User interaction with the application is managed through events, such as button clicks, which trigger specific functions.</li>
+      <li><strong>Functions:</strong> Functions are used to encapsulate specific functionalities, like adding transactions, calculating the balance, displaying transactions on the screen, etc.</li>
+      <li><strong>Conditional Logic:</strong> Conditional structures (<code>if/else</code>) are used to make decisions, such as determining whether a transaction is an income or an expense or if the balance is positive or negative.</li>
+      <li><strong>Formatting:</strong> The code uses methods to format numbers and dates for clear and consistent presentation of monetary values and dates.</li>
+    </ul>
+  </li>
 </ol>
 
-<h2>Estrutura do Projeto</h2>
+<h2>Project Structure</h2>
 
 <h3>HTML</h3>
 
 <ol>
-    <li><strong>Estrutura Básica</strong>
+  <li>
+    <strong>Basic Structure</strong>
+    <ul>
+      <li>The HTML document uses the <code>&lt;!DOCTYPE html&gt;</code> tag to ensure compatibility with HTML5.</li>
+      <li>The document language is set to English (<code>lang="EN"</code>).</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Header (<code>&lt;head&gt;</code>)</strong>
+    <ul>
+      <li><strong>Essential Metadata:</strong> Uses UTF-8 charset and the viewport meta tag to ensure responsiveness.</li>
+      <li><strong>Styling:</strong> References an external stylesheet <code>style.css</code> and external fonts from Google Fonts (Poppins and Source Sans 3).</li>
+      <li><strong>Favicon:</strong> The app icon is loaded with the <code>wwlogo.png</code> file from the assets folder.</li>
+      <li><strong>Title:</strong> The page title is "Wise Wealth".</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Body of the Page (<code>&lt;body&gt;</code>)</strong>
+    <ul>
+      <li>
+        <strong>Header and Navigation (<code>&lt;header&gt; &lt;nav&gt;</code>)</strong>
         <ul>
-            <li>O documento HTML utiliza a tag <code>&lt;!DOCTYPE html&gt;</code> para garantir a compatibilidade com HTML5.</li>
-            <li>O idioma do documento está definido como português (<code>lang="pt"</code>).</li>
+          <li><strong>Logo:</strong> Includes the <code>WW.png</code> logo.</li>
+          <li>
+            <strong>Links:</strong>
+            <ul>
+              <li>"How to Use?": Opens a modal with usage instructions.</li>
+              <li>"Support": Redirects to WhatsApp for support.</li>
+              <li>"Endorse Us": Button with a link to my Instagram.</li>
+            </ul>
+          </li>
         </ul>
-    </li>
+      </li>
 
- <li><strong>Cabeçalho (<code>&lt;head&gt;</code>)</strong>
+<li>
+        <strong>Main Content (<code>&lt;main&gt;</code>)</strong>
         <ul>
-            <li><strong>Metadados Essenciais:</strong> Utiliza charset UTF-8 e meta tag viewport para garantir responsividade.</li>
-            <li><strong>Estilo:</strong> Referencia a folha de estilo externa <code>style.css</code> e fontes externas do Google Fonts (Poppins e Source Sans 3).</li>
-            <li><strong>Favicon:</strong> O ícone do aplicativo é carregado com o arquivo <code>wwlogo.png</code>.</li>
-            <li><strong>Título:</strong> O título da página é "Wise Wealth".</li>
-        </ul>
-    </li>
+          <li>
+            <strong>Left Container:</strong>
+            <ul>
+              <li>Welcome message and dynamic balance display.</li>
+              <li>Transaction Form with fields for description, amount, and category.</li>
+              <li>Insert Button to add transactions.</li>
+            </ul>
+          </li>
 
-<li><strong>Corpo da Página (<code>&lt;body&gt;</code>)</strong>
+<li>
+            <strong>Right Container:</strong>
+            <ul>
+              <li>Month controls and detailed view of monthly transactions.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+<li>
+        <strong>Modals</strong>
         <ul>
-            <li><strong>Cabeçalho e Navegação (<code>&lt;header&gt; &lt;nav&gt;</code>)</strong>
-                <ul>
-                    <li><strong>Logo:</strong> Inclui o logotipo <code>WW.png</code>.</li>
-                    <li><strong>Links:</strong>
-                        <ul>
-                            <li>"Como Usar?": Abre um modal com instruções de uso.</li>
-                            <li>"Suporte": Redireciona para o WhatsApp para suporte.</li>
-                            <li>"Apoie": Botão com link para o Instagram do desenvolvedor.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-
-  <li><strong>Conteúdo Principal (<code>&lt;main&gt;</code>)</strong>
-                <ul>
-                    <li><strong>Container Esquerdo:</strong>
-                        <ul>
-                            <li>Mensagem de boas-vindas e exibição dinâmica do saldo.</li>
-                            <li>Formulário de Transações com campos para descrição, valor e categoria.</li>
-                            <li>Botão de Inserção para adicionar transações.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Container Direito:</strong>
-                        <ul>
-                            <li>Controle de meses e exibição de detalhes das transações mensais.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-
-  <li><strong>Modais</strong>
-                <ul>
-                    <li><strong>Modal "Como Usar?":</strong> Explica funcionalidades do aplicativo.</li>
-                    <li><strong>Modal de Política de Privacidade:</strong> Esclarece que as informações são armazenadas localmente e não compartilhadas.</li>
-                    <li><strong>Modal de Termos de Uso:</strong> Define regras para o uso do aplicativo.</li>
-                </ul>
-            </li>
-
- <li><strong>Rodapé (<code>&lt;footer&gt;</code>)</strong>
-         <ul>
-                    <li>Informações de direitos autorais e link para o Instagram do desenvolvedor.</li>
-                    <li>Links para a política de privacidade e termos de uso.</li>
-                </ul>
-            </li>
+          <li><strong>"How to Use?" Modal:</strong> Explains app features.</li>
+          <li><strong>Privacy Policy Modal:</strong> Clarifies that the information is stored locally and not shared.</li>
+          <li><strong>Terms of Use Modal:</strong> Defines rules for using the app.</li>
         </ul>
-    </li>
+      </li>
 
+<li>
+        <strong>Footer (<code>&lt;footer&gt;</code>)</strong>
+        <ul>
+          <li>Copyright information and link to the developer's Instagram.</li>
+          <li>Links to the privacy policy and terms of use.</li>
+        </ul>
+      </li>
+    </ul>
+
+  </li>
 </ol>
 
 <h3>CSS</h3>
 
 <ol>
-    <li><strong>Variáveis CSS</strong>
-        <ul>
-            <li>Define variáveis para fontes principais (<code>--font-general</code> e <code>--font-details</code>).</li>
-        </ul>
-    </li>
- <li><strong>Estilos Gerais</strong>
-        <ul>
-            <li>Aplica uma fonte padrão e ajusta espaçamento de letras e peso de fonte.</li>
-            <li>Define estilos para o <code>body</code>, incluindo cor de fundo e altura mínima.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>CSS Variables</strong>
+    <ul>
+      <li>Defines variables for main fonts (<code>--font-general</code> and <code>--font-details</code>).</li>
+    </ul>
+  </li>
 
-<li><strong>Navegação</strong>
-        <ul>
-            <li>Define layout flexível e estilos para itens de navegação e botões.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>General Styles</strong>
+    <ul>
+      <li>Applies a default font and adjusts letter spacing and font weight.</li>
+      <li>Defines styles for the <code>body</code>, including background color and minimum height.</li>
+    </ul>
+  </li>
 
-<li><strong>Layout Principal</strong>
-        <ul>
-            <li>Organiza o conteúdo principal com flexbox.</li>
-            <li>Estiliza o container esquerdo e direito, incluindo formulários e detalhes de gastos.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>Navigation</strong>
+    <ul>
+      <li>Defines a flexible layout and styles for navigation items and buttons.</li>
+    </ul>
+  </li>
 
-<li><strong>Detalhamento de Gastos</strong>
-        <ul>
-            <li>Define estilos para a exibição de detalhes de gastos e ícones.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>Main Layout</strong>
+    <ul>
+      <li>Organizes the main content with flexbox.</li>
+      <li>Styles the left and right containers, including forms and expense details.</li>
+    </ul>
+  </li>
 
- <li><strong>Rodapé</strong>
-        <ul>
-            <li>Estiliza o rodapé com fundo branco e borda superior.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>Expense Details</strong>
+    <ul>
+      <li>Defines styles for displaying expense details and icons.</li>
+    </ul>
+  </li>
 
-  <li><strong>Modais</strong>
-        <ul>
-            <li>Define estilos para modais, sobreposição e botão de fechamento.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>Footer</strong>
+    <ul>
+      <li>Styles the footer with a white background and top border.</li>
+    </ul>
+  </li>
 
-  <li><strong>Responsividade</strong>
-        <ul>
-            <li>Ajusta layout e estilos para telas menores com media queries.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>Modals</strong>
+    <ul>
+      <li>Defines styles for modals, overlay, and close button.</li>
+    </ul>
+  </li>
 
+  <li>
+    <strong>Responsiveness</strong>
+    <ul>
+      <li>Adjusts layout and styles for smaller screens with media queries.</li>
+    </ul>
+  </li>
 </ol>
 
 <h3>JavaScript</h3>
 
 <ol>
-    <li><strong>Variáveis e Inicialização</strong>
-        <ul>
-            <li><code>contador</code>: Recupera o valor do contador do localStorage ou inicializa como 0.</li>
-            <li><code>transacoes</code>: Recupera transações do localStorage ou inicializa como array vazio.</li>
-            <li><code>dataMeses</code>: Recupera dados das transações por mês ou inicializa um objeto vazio para cada mês.</li>
-            <li><code>chaves</code>: Array com os nomes dos meses.</li>
-        </ul>
-    </li>
-
-  <li><strong>Funções</strong>
-        <ul>
-            <li><code>ordenarTransacoes</code>: Ordena transações por categoria.</li>
-            <li><code>salvarNoLocalStorage</code>: Salva chave e valor no localStorage.</li>
-        </ul>
-    </li>
-
-  <li><strong>Funções de CRUD</strong>
-        <ul>
-            <li><code>adicionarTransacao</code>: Adiciona nova transação e atualiza saldo.</li>
-            <li><code>atualizarSaldo</code>: Calcula e exibe saldo total.</li>
-            <li><code>adicionarTransacaoComDescricao</code>: Valida e adiciona transação com descrição.</li>
-            <li><code>exibirTransacoes</code>: Exibe transações do mês atual.</li>
-            <li><code>criarElemento</code>: Função utilitária para criar elementos HTML.</li>
-            <li><code>criarTransacaoItem</code>: Cria item de lista para transações.</li>
-            <li><code>changeBackgroundColor</code>: Define cor de fundo dos ícones de transação.</li>
-        </ul>
-    </li>
-
-  <li><strong>Navegação entre Meses</strong>
-        <ul>
-            <li><code>passarMes</code> e <code>voltarMes</code>: Alteram o mês atual e atualizam exibição.</li>
-        </ul>
-    </li>
-
- <li><strong>Deletar Transação</strong>
-        <ul>
-            <li><code>deletarTransacao</code>: Remove transação do array e atualiza exibição.</li>
-        </ul>
-    </li>
-
-<li><strong>Modal</strong>
-        <ul>
-            <li><code>Eventos de Modal</code>: Abre e fecha modais e fecha ao clicar fora.</li>
-        </ul>
-    </li>
-
-</ol>
-
-<h3>Considerações Gerais</h3>
-
-<ol>
-    <li><strong>Uso do localStorage</strong>
-        <ul>
-            <li>Utiliza localStorage para persistir dados entre recarregamentos de página.</li>
-        </ul>
-    </li>
-
-  <li><strong>Validação de Dados</strong>
-        <ul>
-            <li>Valida entradas de usuário antes de adicionar novas transações.</li>
-        </ul>
-    </li>
-
-  <li><strong>Atualização Dinâmica</strong>
-        <ul>
-            <li>Atualiza saldo e exibição de transações dinamicamente.</li>
-        </ul>
+  <li>
+    <strong>Variables and Initialization</strong>
+    <ul>
+      <li><code>counter</code>: Retrieves the counter value from localStorage or initializes it as 0.</li>
+      <li><code>transactions</code>: Retrieves the list of transactions from localStorage or initializes it as an empty array.</li>
+      <li><code>balance</code>: Tracks the user's balance.</li>
+    </ul>
   </li>
 
-  <li><strong>Acessibilidade e UX</strong>
-        <ul>
-            <li>Adiciona feedback visual para saldo e interatividade com modais e botões.</li>
-        </ul>
-    </li>
+  <li>
+    <strong>DOM Elements</strong>
+    <ul>
+      <li>Selects DOM elements like transaction input fields, insert button, and display area.</li>
+    </ul>
+  </li>
 
+  <li>
+    <strong>Event Listeners</strong>
+    <ul>
+      <li>Adds event listeners to handle button clicks and modal interactions.</li>
+    </ul>
+  </li>
+
+  <li>
+  <strong>Functions</strong>
+  <ul>
+    <li><code>addTransaction()</code>: Adds a transaction to the display and updates localStorage.</li>
+    <li><code>renderTransactions()</code>: Dynamically updates the transaction display based on the selected month.</li>
+    <li><code>removeTransaction()</code>: Deletes a transaction from the list and localStorage.</li>
+  </ul>
+</li>
+
+<li>
+  <strong>LocalStorage Interaction</strong>
+  <ul>
+    <li>Data is saved, retrieved, and removed from <code>localStorage</code> to ensure persistence between sessions.</li>
+  </ul>
+</li>
+
+<li>
+  <strong>Dynamic UI Updates</strong>
+  <ul>
+    <li>The user interface is updated dynamically, with functions that change the balance and transaction list in response to user actions.</li>
+  </ul>
+</li>
+
+<h3>Conclusion</h3>
+<p>
+Wise Wealth was developed with the goal of providing a simple and effective tool for personal financial management. Through its intuitive interface and practical features, such as transaction categorization and dynamic balance updates, the app makes it easier to organize monthly finances.
+Wise Wealth not only fulfills its role in helping with financial control, but also demonstrates the ability to build a responsive and user-friendly web application, designed to solve everyday problems.</p>
 </ol>
