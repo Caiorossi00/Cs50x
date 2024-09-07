@@ -69,7 +69,7 @@
 
 <h2>Final Project</h2>
 <ul>
-  <li><a href="https://cs50.harvard.edu/x/2024/project/">Wise Wealth</a></li>
+  <li><a href="https://caiorossi00.github.io/Wise-Wealth-EN/">Wise Wealth</a></li>
 </ul>
 <br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Harvard_University_logo.svg/1280px-Harvard_University_logo.svg.png" alt="Harvard Logo"/>
