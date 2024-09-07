@@ -1,6 +1,8 @@
-<h1>Wise Wealth</h1>
+# Wise Wealth
 
-<p>O Wise Wealth é um aplicativo destinado a simplificar a organização financeira, permitindo que os usuários gerenciem e visualizem seus gastos mensais de maneira eficiente. Com um foco central na experiência do usuário, o aplicativo oferece uma abordagem intuitiva para categorizar despesas, exibindo um saldo total em tempo real para uma compreensão clara da situação financeira.</p>
+#### Video Demo: <URL HERE>
+
+#### Description: O Wise Wealth é um aplicativo destinado a simplificar a organização financeira, permitindo que os usuários gerenciem e visualizem seus gastos mensais de maneira eficiente. Com um foco central na experiência do usuário, o aplicativo oferece uma abordagem intuitiva para categorizar despesas, exibindo um saldo total em tempo real para uma compreensão clara da situação financeira.
 
 <ol>
     <li>
@@ -11,8 +13,7 @@
             <li>Optar por uma aplicação web proporcionou um acesso fácil e rápido, enquanto o uso do <code>localStorage</code> garante que as informações do usuário sejam armazenadas localmente no navegador, mantendo o saldo sempre disponível.</li>
         </ul>
     </li>
-
-    <li>
+<li>
         <strong>Funcionamento</strong>
         <ul>
             <li><strong>Campo de Inputs e Campo de Display</strong>
@@ -23,7 +24,7 @@
                 </ul>
             </li>
 
-            <li><strong>Navbar</strong>
+<li><strong>Navbar</strong>
                 <ul>
                     <li>Na barra de navegação (navbar), o usuário tem acesso a algumas funcionalidades:</li>
                     <li><strong>Como Usar:</strong> Um link que abre um modal com instruções detalhadas sobre o uso do aplicativo.</li>
@@ -32,7 +33,7 @@
                 </ul>
             </li>
 
-            <li><strong>Footer</strong>
+<li><strong>Footer</strong>
                 <ul>
                     <li>No rodapé (footer), o usuário pode consultar informações sobre a política de privacidade e os termos de uso, ambos acessíveis por meio de modais.</li>
                     <li>Além disso, há uma âncora que leva ao meu Instagram, onde estão os créditos ao desenvolvedor.</li>
@@ -41,7 +42,7 @@
         </ul>
     </li>
 
-    <li>
+<li>
         <strong>Conceitos</strong>
         <ul>
             <li><strong>Armazenamento Local:</strong> O código utiliza o <code>localStorage</code> do navegador para persistir os dados das transações, garantindo que as informações sejam mantidas mesmo após o fechamento da página.</li>
@@ -69,7 +70,7 @@
         </ul>
     </li>
 
-    <li><strong>Cabeçalho (<code>&lt;head&gt;</code>)</strong>
+ <li><strong>Cabeçalho (<code>&lt;head&gt;</code>)</strong>
         <ul>
             <li><strong>Metadados Essenciais:</strong> Utiliza charset UTF-8 e meta tag viewport para garantir responsividade.</li>
             <li><strong>Estilo:</strong> Referencia a folha de estilo externa <code>style.css</code> e fontes externas do Google Fonts (Poppins e Source Sans 3).</li>
@@ -78,7 +79,7 @@
         </ul>
     </li>
 
-    <li><strong>Corpo da Página (<code>&lt;body&gt;</code>)</strong>
+<li><strong>Corpo da Página (<code>&lt;body&gt;</code>)</strong>
         <ul>
             <li><strong>Cabeçalho e Navegação (<code>&lt;header&gt; &lt;nav&gt;</code>)</strong>
                 <ul>
@@ -93,7 +94,7 @@
                 </ul>
             </li>
 
-            <li><strong>Conteúdo Principal (<code>&lt;main&gt;</code>)</strong>
+  <li><strong>Conteúdo Principal (<code>&lt;main&gt;</code>)</strong>
                 <ul>
                     <li><strong>Container Esquerdo:</strong>
                         <ul>
@@ -110,7 +111,7 @@
                 </ul>
             </li>
 
-            <li><strong>Modais</strong>
+  <li><strong>Modais</strong>
                 <ul>
                     <li><strong>Modal "Como Usar?":</strong> Explica funcionalidades do aplicativo.</li>
                     <li><strong>Modal de Política de Privacidade:</strong> Esclarece que as informações são armazenadas localmente e não compartilhadas.</li>
@@ -118,8 +119,8 @@
                 </ul>
             </li>
 
-            <li><strong>Rodapé (<code>&lt;footer&gt;</code>)</strong>
-                <ul>
+ <li><strong>Rodapé (<code>&lt;footer&gt;</code>)</strong>
+         <ul>
                     <li>Informações de direitos autorais e link para o Instagram do desenvolvedor.</li>
                     <li>Links para a política de privacidade e termos de uso.</li>
                 </ul>
@@ -137,46 +138,45 @@
             <li>Define variáveis para fontes principais (<code>--font-general</code> e <code>--font-details</code>).</li>
         </ul>
     </li>
-
-    <li><strong>Estilos Gerais</strong>
+ <li><strong>Estilos Gerais</strong>
         <ul>
             <li>Aplica uma fonte padrão e ajusta espaçamento de letras e peso de fonte.</li>
             <li>Define estilos para o <code>body</code>, incluindo cor de fundo e altura mínima.</li>
         </ul>
     </li>
 
-    <li><strong>Navegação</strong>
+<li><strong>Navegação</strong>
         <ul>
             <li>Define layout flexível e estilos para itens de navegação e botões.</li>
         </ul>
     </li>
 
-    <li><strong>Layout Principal</strong>
+<li><strong>Layout Principal</strong>
         <ul>
             <li>Organiza o conteúdo principal com flexbox.</li>
             <li>Estiliza o container esquerdo e direito, incluindo formulários e detalhes de gastos.</li>
         </ul>
     </li>
 
-    <li><strong>Detalhamento de Gastos</strong>
+<li><strong>Detalhamento de Gastos</strong>
         <ul>
             <li>Define estilos para a exibição de detalhes de gastos e ícones.</li>
         </ul>
     </li>
 
-    <li><strong>Rodapé</strong>
+ <li><strong>Rodapé</strong>
         <ul>
             <li>Estiliza o rodapé com fundo branco e borda superior.</li>
         </ul>
     </li>
 
-    <li><strong>Modais</strong>
+  <li><strong>Modais</strong>
         <ul>
             <li>Define estilos para modais, sobreposição e botão de fechamento.</li>
         </ul>
     </li>
 
-    <li><strong>Responsividade</strong>
+  <li><strong>Responsividade</strong>
         <ul>
             <li>Ajusta layout e estilos para telas menores com media queries.</li>
         </ul>
@@ -196,14 +196,14 @@
         </ul>
     </li>
 
-    <li><strong>Funções</strong>
+  <li><strong>Funções</strong>
         <ul>
             <li><code>ordenarTransacoes</code>: Ordena transações por categoria.</li>
             <li><code>salvarNoLocalStorage</code>: Salva chave e valor no localStorage.</li>
         </ul>
     </li>
 
-    <li><strong>Funções de CRUD</strong>
+  <li><strong>Funções de CRUD</strong>
         <ul>
             <li><code>adicionarTransacao</code>: Adiciona nova transação e atualiza saldo.</li>
             <li><code>atualizarSaldo</code>: Calcula e exibe saldo total.</li>
@@ -215,19 +215,19 @@
         </ul>
     </li>
 
-    <li><strong>Navegação entre Meses</strong>
+  <li><strong>Navegação entre Meses</strong>
         <ul>
             <li><code>passarMes</code> e <code>voltarMes</code>: Alteram o mês atual e atualizam exibição.</li>
         </ul>
     </li>
 
-    <li><strong>Deletar Transação</strong>
+ <li><strong>Deletar Transação</strong>
         <ul>
             <li><code>deletarTransacao</code>: Remove transação do array e atualiza exibição.</li>
         </ul>
     </li>
 
-    <li><strong>Modal</strong>
+<li><strong>Modal</strong>
         <ul>
             <li><code>Eventos de Modal</code>: Abre e fecha modais e fecha ao clicar fora.</li>
         </ul>

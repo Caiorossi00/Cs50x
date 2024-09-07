@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="EN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,7 +19,7 @@
         <img src="./assets/WW.png" alt="Wise Wealth Logo" />
         <ul>
           <li>
-            <a href="#" id="how-to-use-link"> Como Usar? </a>
+            <a href="#" id="how-to-use-link">How to Use?</a>
           </li>
 
           <li>
@@ -28,7 +28,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              Suporte
+              Support
             </a>
           </li>
           <li>
@@ -37,7 +37,7 @@
                 href="https://www.instagram.com/caiorossi.dev/"
                 target="_blank"
                 rel="noopener noreferrer"
-                >Apoie</a
+                >Endorse Us!</a
               >
             </button>
           </li>
@@ -50,8 +50,8 @@
         <div class="container-left">
           <div class="content-left">
             <div class="cl-texto">
-              <h1>Bem Vindo!</h1>
-              <p>Seu saldo é de:<br /><span class="saldo-dinamico"></span></p>
+              <h1>Welcome!</h1>
+              <p>Your balance is:<br /><span class="saldo-dinamico"></span></p>
             </div>
 
             <div class="inserir-dados">
@@ -59,40 +59,36 @@
                 <input
                   type="text"
                   id="descricao"
-                  placeholder="Descrição"
+                  placeholder="Description"
                   required
                 />
                 <input
                   type="number"
                   id="valor"
                   step="0.01"
-                  placeholder="Valor"
+                  placeholder="Amount"
                   required
                 />
                 <select id="categoria-transacao" class="select-custom" required>
-                  <option value="" disabled selected>Categoria</option>
-                  <option value="Salário">Salário</option>
-                  <option value="Entrada-extra">Entrada Extra</option>
-                  <option value="Fatura-externa">Fatura Externa</option>
-                  <option value="Fatura-interna-(PF)">
-                    Fatura interna (PF)
+                  <option value="" disabled selected>Category</option>
+                  <option value="Salary">Salary</option>
+                  <option value="Extra-income">Extra Income</option>
+                  <option value="Credit-Card-Bill">Credit card Bill</option>
+                  <option value="Additional-expenses">
+                    Additional Expenses
                   </option>
-                  <option value="Fatura-interna-(PJ)">
-                    Fatura interna (PJ)
-                  </option>
-                  <option value="Gastos-extras">Gastos extras</option>
                 </select>
                 <select id="tipo-transacao" class="select-custom" required>
-                  <option value="" disabled selected>Tipo</option>
-                  <option value="entrada">Entrada</option>
-                  <option value="despesa">Despesa</option>
+                  <option value="" disabled selected>Type</option>
+                  <option value="entrada">Income</option>
+                  <option value="despesa">Expense</option>
                 </select>
                 <button
                   type="button"
                   class="btn-adicionar"
                   onclick="adicionarTransacaoComDescricao()"
                 >
-                  Inserir Dados
+                  Input Data
                 </button>
               </form>
             </div>
@@ -130,60 +126,61 @@
         <span class="close" id="close-how-to-use" aria-label="Fechar"
           >&times;</span
         >
-        <h2 id="how-to-use-title">Como Usar?</h2>
+        <h2 id="how-to-use-title">How to use?</h2>
         <p>
-          Bem-vindo ao Wise <span style="color: #00bf63">Wealth</span>! Aqui
-          está um guia rápido sobre como usar o app:
+          Welcome to Wise <span style="color: #00bf63">Wealth</span>! Here is a
+          quick guide on how to use the app
         </p>
         <ol>
           <li>
-            <strong>Adicionar Transações:</strong> No formulário à esquerda,
-            preencha os campos:
+            <strong>Add Transactions:</strong> In the form on the left, fill out
+            the fields:
             <ul>
               <li>
-                <strong>Descrição:</strong> Informe o motivo ou o nome da
-                transação.
+                <strong>Description:</strong> Provide the reason or name of the
+                transaction.
               </li>
               <li>
-                <strong>Valor:</strong> Insira o valor da transação. Use números
-                positivos para entradas e despesas.
+                <strong>Amount:</strong> Enter the amount of the transaction.
+                Use positive numbers for income and expenses.
               </li>
               <li>
-                <strong>Categoria:</strong> Selecione a categoria da transação.
+                <strong>Category:</strong> Select the category of the
+                transaction.
               </li>
               <li>
-                <strong>Tipo:</strong> Escolha se a transação é uma entrada ou
-                uma despesa.
+                <strong>Type:</strong> Choose whether the transaction is income
+                or an expense.
               </li>
             </ul>
-            Depois de preencher todos os campos, clique no botão
-            <strong>"Inserir Dados"</strong> para adicionar a transação.
+            After filling out all the fields, click the
+            <strong>"Submit Data"</strong> button to add the transaction.
           </li>
           <br />
           <li>
-            <strong>Visualizar Transações:</strong> As transações adicionadas
-            serão exibidas à direita. Você pode ver as transações do mês atual e
-            navegar entre os meses usando os botões <strong>"<"</strong> e
-            <strong>">"</strong>.
+            <strong>View Transactions:</strong> The added transactions will be
+            displayed on the right. You can view the transactions for the
+            current month and navigate between months using the
+            <strong>"<"</strong> and <strong>">"</strong> buttons.
           </li>
           <br />
-
           <li>
-            <strong>Saldo:</strong> O saldo total será atualizado
-            automaticamente com base nas transações adicionadas. O saldo é
-            exibido na parte superior esquerda e será destacado em verde para
-            valores positivos e em vermelho para valores negativos.
+            <strong>Balance:</strong> The total balance will be automatically
+            updated based on the transactions added. The balance is displayed at
+            the top left and will be highlighted in green for positive values
+            and red for negative values.
           </li>
         </ol>
+        <p>If you have any questions or need support, feel free to click the</p>
+
         <p>
-          Se tiver dúvidas ou precisar de suporte, não hesite em clicar no link
-          de
+          If you have any questions or need support, feel free to click the
           <a
-            href="https://wa.me/5553984158694?text=Gostaria%20de%20reportar%20um%20problema%20com%20o%20app%20Wise%20Wealth!"
+            href="https://wa.me/5553984158694?text=I%20would%20like%20to%20report%20a%20problem%20with%20the%20Wise%20Wealth%20app!"
             target="_blank"
             rel="noopener noreferrer"
-            style="color: 000"
-            >Suporte</a
+            style="color: #000"
+            >Support</a
           >.
         </p>
       </div>
@@ -200,15 +197,15 @@
         <span class="close" id="close-privacy" aria-label="Fechar"
           >&times;</span
         >
-        <h2 id="privacy-policy-title">Política de Privacidade</h2>
+        <h2 id="privacy-policy-title">Privacy Policy</h2>
         <p>
-          Nós, do Wise <span style="color: #00bf63">Wealth</span>, valorizamos
-          sua privacidade e estamos comprometidos em proteger suas informações.
-          Todas as informações fornecidas por você, incluindo dados pessoais e
-          financeiros, são armazenadas exclusivamente no seu navegador,
-          garantindo que os desenvolvedores do projeto não tenham acesso a essas
-          informações sigilosas, que permanecem totalmente sob o seu controle e
-          não são compartilhadas ou armazenadas em nenhum servidor externo.
+          At Wise <span style="color: #00bf63">Wealth</span>, we value your
+          privacy and are committed to protecting your information. All
+          information you provide, including personal and financial data, is
+          stored exclusively on your browser, ensuring that the project's
+          developers do not have access to this sensitive information, which
+          remains entirely under your control and is not shared or stored on any
+          external servers.
         </p>
       </div>
     </div>
@@ -222,19 +219,19 @@
     >
       <div class="modal-content">
         <span class="close" id="close-terms" aria-label="Fechar">&times;</span>
-        <h2 id="terms-of-use-title">Termos de Uso</h2>
+        <h2 id="terms-of-use-title">Terms of use</h2>
         <p>
-          Ao utilizar o Wise <span style="color: #00bf63">Wealth</span>, você
-          concorda em cumprir estes Termos de Uso, que estabelecem que o
-          aplicativo é fornecido para uso pessoal e não comercial, sendo seu uso
-          de forma responsável e em conformidade com as leis aplicáveis; você é
-          responsável por manter a segurança de suas informações pessoais, que
-          são armazenadas exclusivamente em seu navegador, conforme descrito em
-          nossa Política de Privacidade; nos reservamos o direito de modificar
-          ou descontinuar o aplicativo a qualquer momento, sem aviso prévio, e
-          não nos responsabilizamos por danos decorrentes dessas alterações ou
-          do uso do aplicativo, que é oferecido "como está", sem garantias de
-          desempenho contínuo ou livre de erros.
+          By using Wise <span style="color: #00bf63">Wealth</span>, you agree to
+          comply with these Terms of Use, which establish that the application
+          is provided for personal and non-commercial use, and that you will use
+          it responsibly and in accordance with applicable laws. You are
+          responsible for maintaining the security of your personal information,
+          which is stored exclusively on your browser as described in our
+          Privacy Policy. We reserve the right to modify or discontinue the
+          application at any time without notice, and we are not liable for any
+          damages resulting from such changes or from the use of the
+          application, which is provided "as it is," without warranties of
+          continuous performance or error-free operation.
         </p>
       </div>
     </div>
@@ -243,7 +240,7 @@
       <div class="footer-container">
         <div class="footer-left">
           <p>
-            &copy; 2024 Wise Wealth. Todos os direitos reservados.
+            &copy; 2024 Wise Wealth. All rights reserved.
             <br />Developed By
             <a
               href="https://www.instagram.com/caiorossi.dev/"
@@ -257,9 +254,9 @@
         <div class="footer-right">
           <ul>
             <li>
-              <a href="#" id="privacy-policy-link">Política de Privacidade</a>
+              <a href="#" id="privacy-policy-link">Privacy Policy</a>
             </li>
-            <li><a href="#" id="terms-of-use-link">Termos de Uso</a></li>
+            <li><a href="#" id="terms-of-use-link">Terms of Use</a></li>
           </ul>
         </div>
       </div>

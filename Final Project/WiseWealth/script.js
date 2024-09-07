@@ -2,29 +2,27 @@ let contador = JSON.parse(localStorage.getItem("contador")) || 0;
 
 const transacoes = JSON.parse(localStorage.getItem("transacoes")) || [];
 const dataMeses = JSON.parse(localStorage.getItem("transacoesData")) || {
-  Janeiro: [],
-  Fevereiro: [],
-  Março: [],
-  Abril: [],
-  Maio: [],
-  Junho: [],
-  Julho: [],
-  Agosto: [],
-  Setembro: [],
-  Outubro: [],
-  Novembro: [],
-  Dezembro: [],
+  January: [],
+  February: [],
+  March: [],
+  April: [],
+  May: [],
+  June: [],
+  July: [],
+  August: [],
+  September: [],
+  October: [],
+  November: [],
+  December: [],
 };
 const chaves = Object.keys(dataMeses);
 
 function ordenarTransacoes(ordemTransacao) {
   const order = {
-    Salário: 1,
-    "Entrada-extra": 2,
-    "Fatura-externa": 3,
-    "Fatura-interna-(PF)": 4,
-    "Fatura-interna-(PJ)": 5,
-    "Gastos-extras": 6,
+    Salary: 1,
+    "Extra-income": 2,
+    "CC-bill": 3,
+    "Additional-expenses": 4,
   };
 
   return ordemTransacao.sort((a, b) => {
@@ -62,9 +60,9 @@ function atualizarSaldo() {
   });
 
   const somaTotal = document.querySelector(".saldo-dinamico");
-  somaTotal.textContent = `${saldoTotal.toLocaleString("pt-BR", {
+  somaTotal.textContent = `${saldoTotal.toLocaleString("EN", {
     style: "currency",
-    currency: "BRL",
+    currency: "USD",
   })}`;
 
   if (saldoTotal >= 0.1) {
@@ -112,25 +110,25 @@ function adicionarTransacaoComDescricao() {
 
   if (valor < 0) {
     valorInput.value = 0;
-    alert("Insira um número válido");
+    alert("Please enter a valid number.");
     return;
   }
 
   if (descricao.trim() === "") {
-    alert("Por favor, insira uma descrição.");
+    alert("Please enter a description.");
     return;
   } else if (isNaN(valor)) {
-    alert("Por favor, insira um número válido para o valor.");
+    alert("Please enter a valid number for the amount.");
     return;
   }
 
   if (categoriaTransacao.value === "") {
-    alert("Por favor, selecione uma categoria.");
+    alert("Please select a category.");
     return;
   }
 
   if (tipoTransacao.value === "") {
-    alert("Por favor, selecione o tipo de transação (entrada ou saída).");
+    alert("Please select the type of transaction (income or expense).");
     return;
   }
 
@@ -168,7 +166,7 @@ function exibirTransacoes() {
     const divEmpty = criarElemento(
       "div",
       "divEmpty",
-      "Você ainda não possui nenhum lançamento no mês de " + chaves[contador]
+      "You do not have any entries for the month of " + chaves[contador]
     );
     ul.appendChild(divEmpty);
   } else {
@@ -204,11 +202,12 @@ function criarTransacaoItem(transacao, index) {
     null,
     `${transacao.option.replace(/-/g, " ")} - ${
       transacao.descricao
-    }, ${transacao.valor.toLocaleString("pt-BR", {
+    }, ${transacao.valor.toLocaleString("en-US", {
       style: "currency",
-      currency: "BRL",
+      currency: "USD",
     })}`
   );
+  console.log(transacao);
 
   const iconeFlecha = criarElemento("span", "arrow");
   changeBackgroundColor(iconeFlecha, transacao.option);
@@ -225,12 +224,10 @@ exibirTransacoes();
 
 function changeBackgroundColor(lista, categoria) {
   const colorMap = {
-    Salário: "#00BF63",
-    "Entrada-extra": "#00BF63",
-    "Fatura-externa": "#FF5757",
-    "Fatura-interna-(PF)": "#FF5757",
-    "Fatura-interna-(PJ)": "#FF5757",
-    "Gastos-extras": "#FF5757",
+    Salary: "#00BF63",
+    "Extra-income": "#00BF63",
+    "Credit-Card-Bill": "#FF5757",
+    "Additional-expenses": "#FF5757",
   };
 
   const color = colorMap[categoria];
